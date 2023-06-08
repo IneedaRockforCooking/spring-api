@@ -19,8 +19,7 @@ public class Api {
     private String title;
     private String releaseDate;
 
-    public Comic(String comicId, String title, String releaseDate) {
-        this.comicId = comicId;
+    public Comic(String title, String releaseDate) {
         this.title = title;
         this.releaseDate = releaseDate;
     }
